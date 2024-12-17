@@ -78,12 +78,12 @@
     <Compile Include="Assets\Scripts\LobbyManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
-    <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
@@ -385,17 +385,17 @@
     <Reference Include="Unity.Analytics.Editor">
       <HintPath>C:\Users\kvalbrus\Documents\GitHub\HackerWarfare\HackerWarfare\Library\PackageCache\com.unity.analytics@3.8.1\Unity.Analytics.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>C:\Users\kvalbrus\Documents\GitHub\HackerWarfare\HackerWarfare\Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>C:\Users\kvalbrus\Documents\GitHub\HackerWarfare\HackerWarfare\Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>C:\Users\kvalbrus\Documents\GitHub\HackerWarfare\HackerWarfare\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>C:\Users\kvalbrus\Documents\GitHub\HackerWarfare\HackerWarfare\Library\PackageCache\com.unity.analytics@3.8.1\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Photon3Unity3D">
-      <HintPath>C:\Users\kvalbrus\Documents\GitHub\HackerWarfare\HackerWarfare\Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
-    </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>C:\Users\kvalbrus\Documents\GitHub\HackerWarfare\HackerWarfare\Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
