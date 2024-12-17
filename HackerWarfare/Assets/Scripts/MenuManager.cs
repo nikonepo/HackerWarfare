@@ -6,6 +6,8 @@ public class MenuManager : MonoBehaviour
 {
     [SerializeField] GameObject _start_menu;
     [SerializeField] GameObject _settings_menu;
+    [SerializeField] GameObject _lobby_menu;
+    
     public void Start()
     {
         _settings_menu.SetActive(false);
@@ -18,6 +20,12 @@ public class MenuManager : MonoBehaviour
         #if UNITY_EDITOR
                 UnityEditor.EditorApplication.isPlaying = false;
         #endif
+    }
+
+    public void GoLobby()
+    {
+        _start_menu.SetActive(false);
+        _lobby_menu.SetActive(true);
     }
 
     public void GoSettings()
