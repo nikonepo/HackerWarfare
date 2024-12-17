@@ -3,6 +3,7 @@ using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class LobbyManager : MonoBehaviourPunCallbacks
 {
@@ -10,11 +11,13 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     [SerializeField] private GameObject lobbyUI;
     [SerializeField] private GameObject roomUi;
     [SerializeField] private TMP_Text roomNameText;
-    
+    [SerializeField] private TMP_Text playersCountText;
+
     [SerializeField] private LobbyPrefab lobbyPrefab;
     private List<LobbyPrefab> lobbyPrefabs = new List<LobbyPrefab>();
     [SerializeField] private Transform contentObject;
-    
+    [SerializeField] private Transform contentOfPlayers;
+
     [SerializeField] private float updateInterval = 0.2f;
     private float nextUpdateTime;
     
@@ -41,17 +44,25 @@ public class LobbyManager : MonoBehaviourPunCallbacks
         PhotonNetwork.LeaveRoom();
     }
 
+    public void GoBackToMenu()
+    {
+        PhotonNetwork.Disconnect();
+        SceneManager.LoadScene("MainMenu");
+    }
+
     public override void OnJoinedRoom()
     {
         lobbyUI.SetActive(false);
         roomUi.SetActive(true);
         roomNameText.text = "Room: " + PhotonNetwork.CurrentRoom.Name;
+        UpdatePlayersList();
     }
 
     public override void OnLeftRoom()
     {
         roomUi.SetActive(false);
         lobbyUI.SetActive(true);
+        UpdatePlayersList();
     }
 
     public override void OnRoomListUpdate(List<RoomInfo> roomList)
@@ -83,5 +94,23 @@ public class LobbyManager : MonoBehaviourPunCallbacks
             newLobby.SetLobbyName(roomInfo.Name);
             lobbyPrefabs.Add(newLobby);
         }
+    }
+
+    public void UpdatePlayersList()
+    {
+        //foreach (var playersPrefab in playersPrefabs)
+        //{
+        //    Destroy(playersPrefab.gameObject);
+        //}
+
+        //playerPrefabs.Clear();
+
+        //foreach (var player in PhotonNetwork.CurrentRoom.Players)
+        //{
+        //    LobbyPrefab newLobby = Instantiate(lobbyPrefab, contentObject);
+        //    newLobby.SetLobbyName(player);
+        //    lobbyPrefabs.Add(newLobby);
+        //}
+        playersCountText.text = "Players " + PhotonNetwork.CurrentRoom.PlayerCount + " of 4";
     }
 }

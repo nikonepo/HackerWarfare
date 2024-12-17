@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Anatoly\\Documents\\GitHub\\HackerWarfare\\HackerWarfare\\",
+  "WorkspaceRootPath": "C:\\Users\\Anatoly\\Documents\\GitHub\\HackerWarfare2\\HackerWarfare\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{14922801-AD94-0160-D015-00B2D5367D5F}|Assembly-CSharp.csproj|c:\\users\\anatoly\\documents\\github\\hackerwarfare\\hackerwarfare\\assets\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14922801-AD94-0160-D015-00B2D5367D5F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14922801-AD94-0160-D015-00B2D5367D5F}|Assembly-CSharp.csproj|c:\\users\\anatoly\\documents\\github\\hackerwarfare2\\hackerwarfare\\assets\\scripts\\lobbymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14922801-AD94-0160-D015-00B2D5367D5F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lobbymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14922801-AD94-0160-D015-00B2D5367D5F}|Assembly-CSharp.csproj|C:\\Users\\Anatoly\\Documents\\GitHub\\HackerWarfare\\HackerWarfare\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{14922801-AD94-0160-D015-00B2D5367D5F}|Assembly-CSharp.csproj|C:\\Users\\Anatoly\\Documents\\GitHub\\HackerWarfare2\\HackerWarfare\\assets\\scripts\\lobbyprefab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14922801-AD94-0160-D015-00B2D5367D5F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lobbyprefab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14922801-AD94-0160-D015-00B2D5367D5F}|Assembly-CSharp.csproj|C:\\Users\\Anatoly\\Documents\\GitHub\\HackerWarfare2\\HackerWarfare\\assets\\scripts\\mainmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14922801-AD94-0160-D015-00B2D5367D5F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14922801-AD94-0160-D015-00B2D5367D5F}|Assembly-CSharp.csproj|C:\\Users\\Anatoly\\Documents\\GitHub\\HackerWarfare2\\HackerWarfare\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14922801-AD94-0160-D015-00B2D5367D5F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14922801-AD94-0160-D015-00B2D5367D5F}|Assembly-CSharp.csproj|C:\\Users\\Anatoly\\Documents\\GitHub\\HackerWarfare2\\HackerWarfare\\assets\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14922801-AD94-0160-D015-00B2D5367D5F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +35,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MenuManager.cs",
-              "DocumentMoniker": "C:\\Users\\Anatoly\\Documents\\GitHub\\HackerWarfare\\HackerWarfare\\Assets\\Scripts\\MenuManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuManager.cs",
-              "ToolTip": "C:\\Users\\Anatoly\\Documents\\GitHub\\HackerWarfare\\HackerWarfare\\Assets\\Scripts\\MenuManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MenuManager.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "Title": "LobbyManager.cs",
+              "DocumentMoniker": "C:\\Users\\Anatoly\\Documents\\GitHub\\HackerWarfare2\\HackerWarfare\\Assets\\Scripts\\LobbyManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LobbyManager.cs",
+              "ToolTip": "C:\\Users\\Anatoly\\Documents\\GitHub\\HackerWarfare2\\HackerWarfare\\Assets\\Scripts\\LobbyManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LobbyManager.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwD0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T14:48:56.483Z",
+              "WhenOpened": "2024-12-17T16:17:43.3Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\Anatoly\\Documents\\GitHub\\HackerWarfare\\HackerWarfare\\Assets\\Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "C:\\Users\\Anatoly\\Documents\\GitHub\\HackerWarfare\\HackerWarfare\\Assets\\Scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Title": "LobbyPrefab.cs",
+              "DocumentMoniker": "C:\\Users\\Anatoly\\Documents\\GitHub\\HackerWarfare2\\HackerWarfare\\Assets\\Scripts\\LobbyPrefab.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LobbyPrefab.cs",
+              "ToolTip": "C:\\Users\\Anatoly\\Documents\\GitHub\\HackerWarfare2\\HackerWarfare\\Assets\\Scripts\\LobbyPrefab.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LobbyPrefab.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T14:31:18.804Z"
+              "WhenOpened": "2024-12-17T16:17:53.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainMenuManager.cs",
+              "DocumentMoniker": "C:\\Users\\Anatoly\\Documents\\GitHub\\HackerWarfare2\\HackerWarfare\\Assets\\Scripts\\MainMenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenuManager.cs",
+              "ToolTip": "C:\\Users\\Anatoly\\Documents\\GitHub\\HackerWarfare2\\HackerWarfare\\Assets\\Scripts\\MainMenuManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenuManager.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T16:17:56.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Anatoly\\Documents\\GitHub\\HackerWarfare2\\HackerWarfare\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\Anatoly\\Documents\\GitHub\\HackerWarfare2\\HackerWarfare\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T14:31:18.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuManager.cs",
+              "DocumentMoniker": "C:\\Users\\Anatoly\\Documents\\GitHub\\HackerWarfare2\\HackerWarfare\\Assets\\Scripts\\MenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuManager.cs",
+              "ToolTip": "C:\\Users\\Anatoly\\Documents\\GitHub\\HackerWarfare2\\HackerWarfare\\Assets\\Scripts\\MenuManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuManager.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T16:17:59.264Z",
+              "EditorCaption": ""
             }
           ]
         }
